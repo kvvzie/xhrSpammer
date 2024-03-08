@@ -22,6 +22,11 @@
 ### step 4: imput url of the site u wanna xhr spam
 ![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/f6504ce9-5e25-4055-aea3-9c89f0b795fc)
 
+### step 5: run updated_script.ps1 file using powershell
+![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/42e8decc-73fa-445b-8657-06a4c305e48f)
+
+
+
 
 
 
