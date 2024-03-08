@@ -44,28 +44,7 @@ def main():
     url = input("Provide a target URL for requests: ")
     
     ps_request = ''' 
-$session = New-Object Microsoft.PowerShell.Commands.WebRequestSession
-$session.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 OPR/107.0.0.0"
-$session.Cookies.Add((New-Object System.Net.Cookie("MoodleSession", "8f118307faf1fdf59b58215691de5a59", "/", "enaw.smarthost.pl")))
-Invoke-WebRequest -UseBasicParsing -Uri "https://enaw.smarthost.pl/lib/ajax/service.php?sesskey=TKzchtE7jp&info=core_message_send_messages_to_conversation" `
--Method "POST" `
--WebSession $session `
--Headers @{
-"Accept"="application/json, text/javascript, */*; q=0.01"
-  "Accept-Encoding"="gzip, deflate, br"
-  "Accept-Language"="pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7"
-  "Origin"="https://enaw.smarthost.pl"
-  "Referer"="https://enaw.smarthost.pl/user/profile.php?id=439"
-  "Sec-Fetch-Dest"="empty"
-  "Sec-Fetch-Mode"="cors"
-  "Sec-Fetch-Site"="same-origin"
-  "X-Requested-With"="XMLHttpRequest"
-  "sec-ch-ua"="`"Not A(Brand`";v=`"99`", `"Opera GX`";v=`"107`", `"Chromium`";v=`"121`""
-  "sec-ch-ua-mobile"="?0"
-  "sec-ch-ua-platform"="`"Windows`""
-} `
--ContentType "application/json" `
--Body "[{`"index`":0,`"methodname`":`"core_message_send_messages_to_conversation`",`"args`":{`"conversationid`":960,`"messages`":[{`"text`":`":steamhappy:`"}]}}]"
+
     '''
 
     # Generating an updated PowerShell script
