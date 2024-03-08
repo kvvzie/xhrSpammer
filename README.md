@@ -9,6 +9,8 @@
 ### step 1: paste all the code
 ### step 2: imput xhr request as powershell format
 ### step 3: run the program
-### step 4: imput url of the siteu wanna xhr spam
+### step 4: imput url of the site u wanna xhr spam
+
+
 
 
