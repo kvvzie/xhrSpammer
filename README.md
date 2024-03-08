@@ -6,7 +6,9 @@
 ## how to use
 
 ### step 0: create a folder with py file
-### step 1: run the program
-### step 2: imput url of the siteu wanna xhr spam
-### step 3: imput xhr request as powershell format
+### step 1: paste all the code
+### step 2: imput xhr request as powershell format
+### step 3: run the program
+### step 4: imput url of the siteu wanna xhr spam
+
 
