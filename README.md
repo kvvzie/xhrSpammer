@@ -13,6 +13,7 @@
 
 ### step 2: imput xhr request as powershell format
 ![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/d467d60a-63e9-4d04-b24a-761dcca5bf1a)
+
 ![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/db7fa7cd-c15a-4cb6-b5de-99e88be7ceb6)
 
 ### step 3: run the program
