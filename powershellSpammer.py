@@ -1,53 +1,55 @@
 def generate_powershell_script(ps_request, url):
-    # Skrypt początkowy
+    # main script
     script = """
-# Definicja funkcji do wysyłania XHR requestów
+# some function
 function Send-XHRRequest {{
     param (
         [string]$url
     )
 
-    # Tworzenie obiektu żądania
+    # creating some shit
     $xhr = New-Object System.Net.WebClient
 
-    # Wysyłanie żądania i zapisanie odpowiedzi
+    # sending some sht
     $response = $xhr.DownloadString($url)
 
-    # Zwrócenie odpowiedzi
+    # returnin response
     return $response
 }}
 
-# Pobranie URL od użytkownika
+# gettin url
 $url = "{}"
 
-# Główna pętla programu
+# main loop
 while ($true) {{
-    # Wywołanie funkcji do wysłania XHR requestu z podanym przez użytkownika URL
+    # sendin xhr request
     $response = Send-XHRRequest -url $url
 
-    # Wypisanie odpowiedzi na konsolę (można pominąć)
+    # printinm response
     Write-Output $response
 
-    # Pauza na 3 sekund przed kolejnym wysłaniem żądania
-    Start-Sleep -Seconds 3
+    # pause for 2 sec
+    Start-Sleep -Seconds 2
 }}
 """.format(url)
 
-    # Dodanie polecenia PowerShell podanego przez użytkownika do funkcji Send-XHRRequest
-    script = script.replace("# Tworzenie obiektu żądania", ps_request + "\n    # Tworzenie obiektu żądania")
+    # some random shit
+    script = script.replace("# creating some shit", ps_request + "\n    # creating some shit")
 
     return script
 
 def main():
     
-    # Retrieving the URL from the user
+    # reading powershell request from input.ps1 file
+    with open("input.ps1", "r") as file:
+        ps_request = file.read()
+    
+    
+    # retrieving the URL from the user
     url = input("Provide a target URL for requests: ")
     
-    ps_request = ''' 
 
-    '''
-
-    # Generating an updated PowerShell script
+    # generating an updated PowerShell script
     updated_script = generate_powershell_script(ps_request, url)
 
     # create a file with updated PowerShell script
