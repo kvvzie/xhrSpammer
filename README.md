@@ -22,6 +22,8 @@
 ### step 5: run updated_script.ps1 file using powershell
 ![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/42e8decc-73fa-445b-8657-06a4c305e48f)
 
+### step 6: run loop.py
+
 
 ## how to get ur powershell xhr request
 
