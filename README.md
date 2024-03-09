@@ -5,14 +5,11 @@
 
 ## how to use
 
-### step 0: create a folder with py file
+### step 1: create a folder and paste all the files
 ![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/7e9f6d7e-0fc1-4f89-a7fd-9cc9d321acc5)
 
-### step 1: paste all the code
-![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/62906e4f-22d2-4bf0-b7d2-0a4377487f43)
-
-### step 2: imput xhr request as powershell format
-![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/d467d60a-63e9-4d04-b24a-761dcca5bf1a)
+### step 2: imput xhr request as powershell format to input.ps1
+![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/edcad405-dc12-4806-9414-55d29797d9cb)
 
 ![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/db7fa7cd-c15a-4cb6-b5de-99e88be7ceb6)
 
