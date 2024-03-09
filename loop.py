@@ -1,5 +1,5 @@
+# made by kvvzie
 import subprocess
-import time
 
 # script path
 script_path = "updated_script.ps1"
