@@ -23,9 +23,14 @@
 ![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/42e8decc-73fa-445b-8657-06a4c305e48f)
 
 
+## how to get ur powershell xhr request
 
 
+### step 1: record ur network while sending some packets
+![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/fb372bf7-bd03-4418-81bd-3ae165dea644)
 
+### step 2: copy ur xhr request as powershell
+![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/52a14e22-c6be-4c5d-a606-2ed72aca9958)
 
 
 
