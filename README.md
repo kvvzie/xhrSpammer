@@ -11,7 +11,7 @@
 ### step 2: imput xhr request as powershell format to input.ps1
 ![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/edcad405-dc12-4806-9414-55d29797d9cb)
 
-![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/db7fa7cd-c15a-4cb6-b5de-99e88be7ceb6)
+![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/43d62582-cb1c-47e0-b1b9-006bbae493c7)
 
 ### step 3: run the program
 ![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/9f928bfe-b793-4f41-8aca-728816aac32b)
