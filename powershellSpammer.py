@@ -1,6 +1,8 @@
+# made by kvvzie
 def generate_powershell_script(ps_request, url):
     # main script
     script = """
+# made by kvvzie
 # some function
 function Send-XHRRequest {{
     param (
