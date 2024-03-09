@@ -7,10 +7,16 @@ script_path = "updated_script.ps1"
 # new powershell comand
 powershell_command = f"Start-Process powershell.exe -ArgumentList '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', '{script_path}'"
 
-# iterations (25 ms * 400 = 10 s)
-iterations = 400
+num_windows = int(input("Enter the number of PowerShell windows to open: "))
 
-# loop
-for _ in range(iterations):
-    subprocess.run(["powershell", "-Command", powershell_command], shell=True)
-    time.sleep(0.025)  # Czekaj 25 ms
+powershell_processes = []
+
+# # of processes
+for _ in range(num_windows):
+    powershell_process = subprocess.Popen(["powershell", "-Command", powershell_command], shell=True)
+    powershell_processes.append(powershell_process)
+    
+response = input("any input will force the program to close")
+    
+for process in powershell_processes:
+    process.wait()
