@@ -35,5 +35,5 @@
 ![image](https://github.com/kvvzie/xhrSpammer/assets/161234221/52a14e22-c6be-4c5d-a606-2ed72aca9958)
 
 
-
+# im not responsible if ur pc go boom boom
 
