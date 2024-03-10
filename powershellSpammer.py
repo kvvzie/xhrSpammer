@@ -30,8 +30,8 @@ while ($true) {{
     # printinm response
     Write-Output $response
 
-    # pause for 2 sec
-    Start-Sleep -Seconds 2
+    # pause for 250 milisec
+    Start-Sleep -Milliseconds 250
 }}
 """.format(url)
 
