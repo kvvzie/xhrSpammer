@@ -1,7 +1,7 @@
-# xhrSpammer
+# xhrSpammer 
 ## a tool that helps u with spamming any powershell xhr requests
 
-### to use u need any phyton debbuger with terminal
+### works with linux and windows (on linux u need to install powershell)
 
 ## how to use
 
